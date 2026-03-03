@@ -1,0 +1,27 @@
+# Data (NEISS files are large; do not commit)
+data/
+!data/.gitkeep
+
+# Model weights
+outputs/models/
+outputs/bertopic/cvd_embeddings.npy
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+*.swp
+
+# API keys
+.env
+secrets.json
