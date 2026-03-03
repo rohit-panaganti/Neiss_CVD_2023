@@ -32,30 +32,6 @@ This repository contains all analytic code for a multistage NLP pipeline that ex
 - BERTopic: **6 clinically coherent phenotypes**  
 - LLM causal flag: CVD-triggered injury in **24.2%** of CVD-positive patients  
 
----
-
-## Repository Structure
-
-```
-neiss_cvd/
-├── src/
-│   ├── 01_data_preprocessing.py       # NEISS data loading & age recoding
-│   ├── 02_stage1_rule_based_nlp.py    # Rule-based NLP + NegEx
-│   ├── 03_stage2_annotation_prep.py   # Annotation sample construction
-│   ├── 04_stage3_tfidf_classifiers.py # TF-IDF LR & Gradient Boosting
-│   ├── 05_stage3_bioclinicalbert.py   # BioClinicalBERT fine-tuning
-│   ├── 06_stage4_llm_extraction.py    # Claude API structured extraction
-│   ├── 07_ensemble.py                 # Weighted hybrid ensemble
-│   ├── 08_model_evaluation.py         # AUROC/AUPRC/SHAP/calibration
-│   ├── 09_bertopic_clustering.py      # BERTopic + UMAP + HDBSCAN
-│   └── 10_statistical_analysis.py    # Survey-weighted regression + IPTW
-├── data/                              # Place NEISS 2023 public use file here
-├── outputs/                           # Model outputs and figures
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## Setup
 
