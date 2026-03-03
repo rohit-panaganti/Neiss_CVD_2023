@@ -97,6 +97,3 @@ Panaganti R. Cardiovascular Disease Comorbidity Among Emergency Department Injur
 
 ---
 
-## License
-
-MIT License
